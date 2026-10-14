@@ -6,23 +6,28 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding:0px 20px 0;
+    background-color: #111111;
+    color: white;
 }
 
-.Header {
-  background-color: #111111;
-}
 
 .Header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 20px 50px;
-  background-color: #0d0d0d;
+  background-color: #111111;
   color: white;
-  position: fixed;
-    width: 100%;
-
+  position:sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 1000;
 }
 
 .Menu {
@@ -115,7 +120,7 @@ details summary {
 
   .Header {
     padding: 20px 10px;
-
+    justify-content: space-between;
   }
 
   .Menu {
