@@ -184,3 +184,109 @@ color: #FFE14D;
     color: #111111;
 
 }
+
+/* formule */
+.plan-card-parent {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.plan-card {
+  background-color: #191A1C;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  padding: 5px 20px ;
+  border-radius: 25px;
+  padding-top: 5px;
+  
+}
+.plan-card h3{
+  font-size: 20px;
+}
+.plan-description {
+  color: #777777;
+  margin-top: 0px;
+}
+.plan-price .dolar{
+  color: #FFE14D;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.plan-price{
+  position: relative;
+}
+.plan-price .number{
+  color: #FFE14D;
+  font-size: 40px;
+  margin-left: 10px;
+}
+.plan-features {
+  color: #bfbfbf;
+}
+.btn-outline {
+  display: block;
+  border: 1px solid #777777;
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  width: 80%;
+  height: 30px;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 6px;
+}
+hr {
+  width: 100%;
+}
+.plan-card-parent {
+  margin-top: 50px;
+}
+.tete-formule-pro {
+  display: flex;
+  gap: 40px ;
+}
+.tete-formule-pro span{
+  margin-top: 12px;
+  border: 1px solid #777777;
+  border-radius: 10px;
+  color: #FFE14D;
+  background-color: #0a0909;
+  text-align: center;
+  padding-top: 9px;
+  width: 180px;
+  margin-bottom: 10px;
+  
+}
+.plan-card-pro{
+  background-color: #FFE14D;
+   padding: 5px 20px ;
+  border-radius: 25px;
+  padding-top: 5px;
+  color: #0a0909;
+}
+.plan-card-pro .plan-price span {
+    color: black;
+    font-weight: bold;
+}
+.plan-card-pro .plan-features li {
+    color: black;
+    font-weight: bold;
+}
+.plan-card-pro .plan-description{
+  color: #111111;
+}
+.btn-dark {
+    display: block;
+    width: 90%;
+    padding: 12px;
+    margin: 20px  0px;
+    border: 1px solid #777777;
+    text-decoration: none;
+    color: white;
+    border-radius: 6px;
+    text-align: center;
+    background-color: #0a0909;
+
+}
