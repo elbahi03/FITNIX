@@ -122,7 +122,7 @@ img{
       height: 450px;
       border:1px solid rgba(255, 215, 0, 0.35) ;
       box-shadow: #a7a28a 5px 5px 5px;
-      background-color: #292D32;
+      /* background-color: #292D32; */
 }
 .programme-number{
   padding-top:10 0px ;
@@ -145,4 +145,42 @@ color: #FFE14D;
 }
 .programme-details :first-child{
   margin-right: 30px;
+}
+/* 3eme partie */
+.plan-heading p:first-child{
+    width: 30px;
+    height: 3px;
+    background-color: #debd17;
+    border-radius: 2px;
+}
+.plan-nos-title {
+    display: flex;
+  gap: 10px;
+  color: #FFE14D;
+  margin-top: 30px;
+ 
+}
+.plan-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.plan-heading h2 + p{
+ margin-top: 0px;
+ color: #777777;
+}
+.plan-toggle {
+  border: 1px solid #777777;
+  border-radius: 25px;
+  padding: 20px;
+  padding-left: 0px;
+}
+.plan-toggle .toggle-option-active {
+  border-radius: 25px;
+    border: 2px solid #0a0909;
+    padding: 20px;
+    background-color: #FFE14D;
+    color: #111111;
+
 }
