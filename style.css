@@ -4,144 +4,320 @@
     font-weight: 400;
     font-style: normal;
 }
+
 body {
-  font-family: 'Roboto', sans-serif;
-  background-color:  #111111;
-  color: white;
+    font-family: 'Roboto', sans-serif;
+    background-color: #111111;
+    color: white;
 }
-/* style programme */
+
+/* page programme */
 /* section1 */
 
-
-
-.programme-section1{
-  background-image: url(Images/p9.png);
-  height: 700px;
+.programme-section1 {
+    background-image: url(Images/p9.png);
+    height: 700px;
     margin-bottom: 50px;
-     
-
 }
 
- .programme-parent1 {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  flex-direction: column;
+.programme-parent1 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
 }
-.programme-title div{
+
+.programme-title div {
     display: flex;
     align-items: center;
     gap: 5px;
-  } 
-.programme-title div p{
+}
+
+.programme-title div p {
     width: 30px;
     height: 3px;
     background-color: #debd17;
     border-radius: 2px;
 }
+
 .programme-nos {
-  color: #c0a313;
+    color: #c0a313;
 }
 
-.programme-description{
-  line-height: 1.5;
-  font-weight: bold;
-  font-size: 13px;
-  color: #777777;
-  margin-left: 170px;
-} 
- 
-.programme-description span{
-  display:block;
+.programme-description {
+    line-height: 1.5;
+    font-weight: bold;
+    font-size: 13px;
+    color: #777777;
+    margin-left: 170px;
 }
 
-.programme-title h2{
+.programme-description span {
+    display: block;
+}
+
+.programme-title h2 {
     font-size: 60px;
     margin-left: 170px;
     margin-top: 120px;
     margin-bottom: 0px;
-  }
-   .programme-title h2 span {
-      color: #eac50d;
-    } 
- 
-  
-    .btn {
-      border:3px  solid;
-      background-color: #FFE14D;
-      width: 350px;
-      height: 60px;
-     border-radius: 25px;
-     font-weight: bold;
-     text-align: center;
-      margin-left: 170px;
-      font-size: 20px;
-    }
+}
+
+.programme-title h2 span {
+    color: #eac50d;
+}
+
+
+.btn {
+    border: 3px solid;
+    background-color: #FFE14D;
+    width: 350px;
+    height: 60px;
+    border-radius: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 170px;
+    font-size: 20px;
+}
+
 /* title-programme */
 .title-programme {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0px;
-  margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+    margin-bottom: 30px;
 }
-.title-programme  p{
-  margin-top: 0px;
-  color: #777777;
-  padding-top: 0px;
-  line-height: 0.5;
+
+.title-programme p {
+    margin-top: 0px;
+    color: #777777;
+    padding-top: 0px;
+    line-height: 0.5;
 }
 
 .title-programme div {
-width: 50px;
-height: 5px;
-background-color: #FFE14D;
-border-radius: 10px;
-}
-/* section_cart */
-.programme-section2{
-margin-left: 40px;
-margin-right: 40px;
-margin-top: 50px;
-}
-.programme-card-parent {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 20px;
+    width: 50px;
+    height: 5px;
+    background-color: #FFE14D;
+    border-radius: 10px;
 }
 
-img{
-   width: 100%;;
-   height: 250px;
-   border-radius: 20px ;
+/* section_cart */
+.programme-section2 {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 50px;
 }
+
+.programme-card-parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+img {
+    width: 100%;
+    ;
+    height: 250px;
+    border-radius: 20px;
+}
+
 .programme-card {
-      border-radius: 20px ;
-      position: relative;
-      width: 100%;
-      height: 450px;
-      border:1px solid rgba(255, 215, 0, 0.35) ;
-      box-shadow: #a7a28a 5px 5px 5px;
-      /* background-color: #292D32; */
+    border-radius: 20px;
+    position: relative;
+    width: 100%;
+    height: 450px;
+    border: 1px solid rgba(255, 215, 0, 0.35);
+    box-shadow: #a7a28a 5px 5px 5px;
+    /* background-color: #292D32; */
 }
-.programme-number{
-  padding-top:10 0px ;
+
+.programme-number {
+    padding-top: 10 0px;
     position: absolute;
     top: 20px;
     left: 20px;
     color: #FFE14D;
 }
-.programme-info{
-      padding: 20px; 
-      
+
+.programme-info {
+    padding: 20px;
+
 }
-.programme-info p{
-  color: #777777;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    background-color: #111111;
-    padding: 0 20px;
-    /* overflow: hidden; */
+
+.programme-info p {
+    color: #777777;
+}
+
+.programme-details :first-child {
+    margin-right: 30px;
+}
+
+/* 3eme partie */
+.plan-heading p:first-child {
+    width: 30px;
+    height: 3px;
+    background-color: #debd17;
+    border-radius: 2px;
+}
+
+.plan-nos-title {
+    display: flex;
+    gap: 10px;
+    color: #FFE14D;
+    margin-top: 30px;
+
+}
+
+.plan-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.plan-heading h2+p {
+    margin-top: 0px;
+    color: #777777;
+}
+
+.plan-toggle {
+    border: 1px solid #777777;
+    border-radius: 25px;
+    padding: 20px;
+    padding-left: 0px;
+}
+
+.plan-toggle .toggle-option-active {
+    border-radius: 25px;
+    border: 2px solid #0a0909;
+    padding: 20px;
+    background-color: #FFE14D;
+    color: #111111;
+
+}
+
+/* formule */
+.plan-card-parent {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.plan-card {
+    background-color: #191A1C;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    padding: 5px 20px;
+    border-radius: 25px;
+    padding-top: 5px;
+
+}
+
+.plan-card h3 {
+    font-size: 20px;
+}
+
+.plan-description {
+    color: #777777;
+    margin-top: 0px;
+}
+
+.plan-price .dolar {
+    color: #FFE14D;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.plan-price {
+    position: relative;
+}
+
+.plan-price .number {
+    color: #FFE14D;
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+.plan-features {
+    color: #bfbfbf;
+}
+
+.btn-outline {
+    display: block;
+    border: 1px solid #777777;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    width: 80%;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 6px;
+}
+
+hr {
+    width: 100%;
+}
+
+.plan-card-parent {
+    margin-top: 50px;
+}
+
+.tete-formule-pro {
+    display: flex;
+    gap: 40px;
+}
+
+.tete-formule-pro span {
+    margin-top: 12px;
+    border: 1px solid #777777;
+    border-radius: 10px;
+    color: #FFE14D;
+    background-color: #0a0909;
+    text-align: center;
+    padding-top: 9px;
+    width: 180px;
+    margin-bottom: 10px;
+
+}
+
+.plan-card-pro {
+    background-color: #FFE14D;
+    padding: 5px 20px;
+    border-radius: 25px;
+    padding-top: 5px;
+    color: #0a0909;
+}
+
+.plan-card-pro .plan-price span {
+    color: black;
+    font-weight: bold;
+}
+
+.plan-card-pro .plan-features li {
+    color: black;
+    font-weight: bold;
+}
+
+.plan-card-pro .plan-description {
+    color: #111111;
+}
+
+.btn-dark {
+    display: block;
+    width: 90%;
+    padding: 12px;
+    margin: 20px 0px;
+    border: 1px solid #777777;
+    text-decoration: none;
+    color: white;
+    border-radius: 6px;
+    text-align: center;
+    background-color: #0a0909;
 }
 
 /* page accuiell :  */
@@ -177,6 +353,7 @@ img{
 }
 
 .image-hero img {
+    width: 17.5%;
     height: 80px;
     border-radius: 10px;
     border: #777777 solid 2px;
@@ -228,10 +405,12 @@ img{
 
 /* section 2 : */
 .lignejaune {
-    width: 100%;
+    width: calc(100% + 40px);
+    margin-left: -20px;
     height: 40px;
     background-color: #FFE14D;
-    margin: 30px 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .line {
@@ -244,7 +423,7 @@ img{
 .line ul {
     display: flex;
     gap: 50px;
-
+    color: #111111;
 }
 
 /* section 3 : */
@@ -415,151 +594,6 @@ img{
     margin-top: 0;
     color: #777777;
 }
-.programme-details :first-child{
-  margin-right: 30px;
-}
-/* 3eme partie */
-.plan-heading p:first-child{
-    width: 30px;
-    height: 3px;
-    background-color: #debd17;
-    border-radius: 2px;
-}
-.plan-nos-title {
-    display: flex;
-  gap: 10px;
-  color: #FFE14D;
-  margin-top: 30px;
- 
-}
-.plan-heading {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-.plan-heading h2 + p{
- margin-top: 0px;
- color: #777777;
-}
-.plan-toggle {
-  border: 1px solid #777777;
-  border-radius: 25px;
-  padding: 20px;
-  padding-left: 0px;
-}
-.plan-toggle .toggle-option-active {
-  border-radius: 25px;
-    border: 2px solid #0a0909;
-    padding: 20px;
-    background-color: #FFE14D;
-    color: #111111;
-
-}
-
-/* formule */
-.plan-card-parent {
-  display: flex;
-  justify-content: center;
-  gap: 50px;
-}
-.plan-card {
-  background-color: #191A1C;
-  display: flex;
-  align-items: start;
-  flex-direction: column;
-  padding: 5px 20px ;
-  border-radius: 25px;
-  padding-top: 5px;
-  
-}
-.plan-card h3{
-  font-size: 20px;
-}
-.plan-description {
-  color: #777777;
-  margin-top: 0px;
-}
-.plan-price .dolar{
-  color: #FFE14D;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-}
-.plan-price{
-  position: relative;
-}
-.plan-price .number{
-  color: #FFE14D;
-  font-size: 40px;
-  margin-left: 10px;
-}
-.plan-features {
-  color: #bfbfbf;
-}
-.btn-outline {
-  display: block;
-  border: 1px solid #777777;
-  list-style: none;
-  text-decoration: none;
-  color: white;
-  width: 80%;
-  height: 30px;
-  border-radius: 10px;
-  text-align: center;
-  padding-top: 6px;
-}
-hr {
-  width: 100%;
-}
-.plan-card-parent {
-  margin-top: 50px;
-}
-.tete-formule-pro {
-  display: flex;
-  gap: 40px ;
-}
-.tete-formule-pro span{
-  margin-top: 12px;
-  border: 1px solid #777777;
-  border-radius: 10px;
-  color: #FFE14D;
-  background-color: #0a0909;
-  text-align: center;
-  padding-top: 9px;
-  width: 180px;
-  margin-bottom: 10px;
-  
-}
-.plan-card-pro{
-  background-color: #FFE14D;
-   padding: 5px 20px ;
-  border-radius: 25px;
-  padding-top: 5px;
-  color: #0a0909;
-}
-.plan-card-pro .plan-price span {
-    color: black;
-    font-weight: bold;
-}
-.plan-card-pro .plan-features li {
-    color: black;
-    font-weight: bold;
-}
-.plan-card-pro .plan-description{
-  color: #111111;
-}
-.btn-dark {
-    display: block;
-    width: 90%;
-    padding: 12px;
-    margin: 20px  0px;
-    border: 1px solid #777777;
-    text-decoration: none;
-    color: white;
-    border-radius: 6px;
-    text-align: center;
-    background-color: #0a0909;
 
 
 @media (max-width: 768px) {
@@ -656,10 +690,12 @@ hr {
     .tewt-testimonialshead {
         width: 100%;
     }
-    .btn-testimonialshead{
+
+    .btn-testimonialshead {
         display: none;
     }
-    .testimonial-grid{
+
+    .testimonial-grid {
         flex-direction: column;
         margin-bottom: 30px;
     }
