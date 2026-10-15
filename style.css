@@ -17,7 +17,7 @@ body {
 .programme-section1{
   background-image: url(Images/p9.png);
   height: 700px;
-    margin-bottom: 50px;
+  margin-bottom: 50px;
      
 
 }
@@ -288,5 +288,4 @@ hr {
     border-radius: 6px;
     text-align: center;
     background-color: #0a0909;
-
 }
