@@ -363,7 +363,8 @@ details summary {
     gap: 10px;
     text-align: center;
   }
+  .exp-hour-new{
+    justify-content: center;}
 }
 .exp-hour-new{
-  justify-content: center;
-}
+    justify-content: right;}
