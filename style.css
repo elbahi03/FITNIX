@@ -942,6 +942,7 @@ footer p,
     color: #fff;
     border-radius: 4px 0 0 4px;
     outline: none;
+    height: 40px;
 }
 
 .NEWSLETTER form {
@@ -1386,7 +1387,7 @@ hr {
 /* contact information */
 .adress,
 .tele,
-.email {
+.email-form {
     display: flex;
     align-items: center;
     gap: 20px;
