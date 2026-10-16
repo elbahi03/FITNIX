@@ -7,35 +7,49 @@
     <meta name="description"
         content="FitNix, salle de sport avec coachs certifiés, programmes sur mesure et suivi nutrition. Réservez un essai gratuit et commencez votre transformation.">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header class="Header">
-        <div class="Inside Header">
+        <div class="Menulogo">
             <div class="logo-div">
                 <a href="/" class="logo">
-                    <img src="/FITNIX/logo_FitNix.png" id="Menu-icone" style="width:30px;height:30px;">
+                    <img src="logo_FitNix.png" id="Menu-icone" style="width:30px;height:30px;">
                     FitNix</a>
             </div>
-            <nav aria-label="Navigation Principale">
-                <ul class="Menu">
-                    <li><a href="/" class="lien-actif">Home</a></li>
-                    <li><a href="/programmes.html">Program</a></li>
-                    <li><a href="/gallerie.html">Gallery</a></li>
-                    <li><a href="/about.html">About</a></li>
-                    <li><a href="#">CONTACT US</a></li>
-                </ul>
-            </nav>
+            <ul class="Menu">
+                <li><a href="/" >Home</a></li>
+                <li><a href="/programmes.html">Program</a></li>
+                <li><a href="/gallerie.html">Gallery</a></li>
+                <li><a href="/about.html">About</a></li>
+            </ul>
         </div>
+        <details>
+            <summary>
+                <img src="Images/menu-icon.svg" alt="Menu" class="menu-icon">
+            </summary>
+            <ul class="Menu2">
+                <li><a href="/">Home</a></li>
+                <li><a href="/programmes.html">Program</a></li>
+                <li><a href="/gallerie.html">Gallery</a></li>
+                <li><a href="/about.html">About</a></li>
+            </ul>
+
+        </details>
+        <button class="contact-button">contact-us</button>
     </header>
+
     <main>
         <section id="gallery" class="section-gallery">
             <div class="conteneur-gallery">
                 <div class="section-gallery-titre">
-                    <h2>FITNIX GALLERIE</h2>
-                    <p>La gallerie pour découvrir les espaces, les activités et l'ambiance de notre salle FITNIX</p>
+                    <span class="tag">NOTRE SALLE</span>
+                    <h2>GALERIE</h2>
+                    <p>La galerie pour découvrir les espaces, les activités et l'ambiance de notre salle FITNIX</p>
                 </div>
-                <div class="images--gallery">
+                <div class="images-gallery">
                     <div class="gallery-item">
                         <img alt="Disques de musculation jaunes et rouges sur un rack, dans l’espace poids libres"
                             src="Images/photo-1554344728-77cf90d9ed26 (1).avif">
@@ -61,78 +75,22 @@
                             src="Images/photo-1605296867724-fa87a8ef53fd.avif">
                     </div>
                 </div>
-                <div class="carouselle">
-                    <div class="carouselle-texte">
-                        <h3>les équipements de notre salle FITNIX</h3>
-                    </div>
-                    <div class="carouselle-container">
-                        <div class="wrapper">
-                            <div class="containers">
-                                <div class="container1">
-                                    <input type="radio" name="slide" id="c1" checked>
-                                    <label for="c1" class="card">
-                                        <img src="Images/photo-1722925541321-f52d45b29c17.avif" alt="Barres curl"
-                                            loading="lazy">
-                                        <div class="row">
-                                            <div class="icon">1</div>
-                                            <div class="descrption">
-                                                <h4>Barres curl</h4>
-                                                <p>Un rack de barres EZ prêtes à l’emploi pour vos exercices de biceps,
-                                                    triceps et avant-bras.</p>
-                                            </div>
-                                        </div>
-                                    </label>
-                                </div>
-                                <div class="container2">
-                                    <input type="radio" name="slide" id="c2">
-                                    <label for="c2" class="card">
-                                        <img src="Images/photo-1734630341082-0fec0e10126c.avif" alt="Haltères"
-                                            loading="lazy">
-                                        <div class="row">
-                                            <div class="icon">2</div>
-                                            <div class="descrption">
-                                                <h4>Haltères</h4>
-                                                <p>Une large gamme de poids, des plus légers aux plus lourds, pour tous
-                                                    les niveaux.</p>
-                                            </div>
-                                        </div>
-                                    </label>
-                                </div>
-                                <div class="container3">
-                                    <input type="radio" name="slide" id="c3" checked>
-                                    <label for="c3" class="card">
-                                        <img src="Images/photo-1637430308606-86576d8fef3c.avif" alt="Espace musculation"
-                                            loading="lazy">
-                                        <div class="row">
-                                            <div class="icon">3</div>
-                                            <div class="descrption">
-                                                <h4>Espace musculation</h4>
-                                                <p>Bancs réglables, racks et machines dans une ambiance sombre et
-                                                    motivante.</p>
-                                            </div>
-                                        </div>
-                                    </label>
-                                </div>
-                                <div class="container4">
-                                    <input type="radio" name="slide" id="c4" checked>
-                                    <label for="c4" class="card">
-                                        <img src="Images/photo-1605490855119-94921710a47f.avif" alt="Barres et disques"
-                                            loading="lazy">
-                                        <div class="row">
-                                            <div class="icon">4</div>
-                                            <div class="descrption">
-                                                <h4>Barres et disques</h4>
-                                                <p>Disques bumper et barres olympiques pour le soulevé de terre, le
-                                                    squat et la force.</p>
-                                            </div>
-                                        </div>
-                                    </label>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="carouselle-texte">
+                    <h3>les équipements de notre salle FITNIX</h3>
                 </div>
-            </div>
+                <div class="carouselle">
+                    <marquee direction="left" scrollamount="10">
+                    <div class="caroussel-Images">
+                        <img src="Images/photo-1722925541321-f52d45b29c17.avif" alt="Barres curl">
+                        <img src="Images/photo-1734630341082-0fec0e10126c.avif" alt="Haltères">
+                        <img src="Images/photo-1637430308606-86576d8fef3c.avif" alt="Espace musculation">
+                        <img src="Images/photo-1605490855119-94921710a47f.avif" alt="Barres et disques">
+                        <img src="Images/photo-1722925541142-5db2668ca492.avif" alt="poids lourds">
+                        <img src="Images/nathan-dumlao-jlf9QyI250Y-unsplash.jpg" alt="A red and silver dumbbell on a black surface">
+                        <img src="Images/ambitious-studio-rick-barrett-w7jYaN7GqyA-unsplash.jpg" alt="A large gym with a lot of machines">
+                    </div>
+                </marquee>
+                </div>    
             </div>
         </section>
     </main>
