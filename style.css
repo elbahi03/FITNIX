@@ -987,3 +987,73 @@ hr {
         margin-bottom: 30px;
     }
 }
+.Foter {
+    display: flex;
+    flex-wrap: wrap;
+}
+.Réseau_social *{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 20px;
+    border-color: #222222;
+    border: 1px solid;
+}
+.Réseau_social .x {
+    padding-inline: 10px;
+}
+.logo-Réseau {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+.logo-Réseau {
+    text-align: center;
+        margin-top: 15px;
+
+}
+footer{
+    display: block;
+}
+.footer1 *{
+    text-decoration: none;
+    list-style: none;
+}
+.footer1{
+display: flex;
+flex-wrap: wrap;
+justify-items: center;
+justify-content: space-around;
+}
+.Foter_FITNIX {
+    text-align: center;
+    color: #191A1C;
+}
+.Foter_FITNIX h2 {
+    font-size: 200px;
+    margin: 0;
+}
+.Bottom-Pied{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.menu-pied {
+    padding: 0px;
+
+
+}
+.menu-pied {
+
+margin: 22px;    
+}
+
+.menu-pied li  {
+    margin-top: 10px;
+}
+
+footer p , .menu-pied li,.HOURS  h5 {
+    color: #A3A3A3;
+}
