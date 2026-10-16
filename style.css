@@ -939,6 +939,9 @@ img {
     margin-top: 0px;
     margin-left: 140px;
   }
+  .plan-toggle{
+    width: 320px;
+  }
 
   .title-programme p {
     margin-top: 5px;
@@ -950,7 +953,22 @@ img {
   }
   
 .programme-card{
-  min-width: 600px;
+  min-width: 500px;
+}
+.plan-div{
+  margin-left: 80px;
+}
+.plan-card-parent{
+  flex-direction: column;
+  
+}
+.plan-card,.plan-card-pro{
+  width: 500px;
+  border:2px solid #A3A3A3;
+}
+.plan-heading{
+  margin-left: 80px;
+  margin-bottom: 0;
 }
 }
 
