@@ -1,8 +1,8 @@
 @font-face {
-  font-family: 'Roboto';
-  src: url('/fonts/Roboto-Regular.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
+    font-family: 'Roboto';
+    src: url('/fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -142,6 +142,424 @@ img{
 .programme-details {
 color: #FFE14D;
 
+}
+.programme-details :first-child{
+  margin-right: 30px;
+}
+/* 3eme partie */
+.plan-heading p:first-child{
+    width: 30px;
+    height: 3px;
+    background-color: #debd17;
+    border-radius: 2px;
+}
+.plan-nos-title {
+    display: flex;
+  gap: 10px;
+  color: #FFE14D;
+  margin-top: 30px;
+ 
+}
+.plan-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.plan-heading h2 + p{
+ margin-top: 0px;
+ color: #777777;
+}
+.plan-toggle {
+  border: 1px solid #777777;
+  border-radius: 25px;
+  padding: 20px;
+  padding-left: 0px;
+}
+.plan-toggle .toggle-option-active {
+  border-radius: 25px;
+    border: 2px solid #0a0909;
+    padding: 20px;
+    background-color: #FFE14D;
+    color: #111111;
+
+}
+
+/* formule */
+.plan-card-parent {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.plan-card {
+  background-color: #191A1C;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  padding: 5px 20px ;
+  border-radius: 25px;
+  padding-top: 5px;
+  
+}
+.plan-card h3{
+  font-size: 20px;
+}
+.plan-description {
+  color: #777777;
+  margin-top: 0px;
+}
+.plan-price .dolar{
+  color: #FFE14D;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.plan-price{
+  position: relative;
+}
+.plan-price .number{
+  color: #FFE14D;
+  font-size: 40px;
+  margin-left: 10px;
+}
+.plan-features {
+  color: #bfbfbf;
+}
+.btn-outline {
+  display: block;
+  border: 1px solid #777777;
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  width: 80%;
+  height: 30px;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 6px;
+}
+hr {
+  width: 100%;
+}
+.plan-card-parent {
+  margin-top: 50px;
+}
+.tete-formule-pro {
+  display: flex;
+  gap: 40px ;
+}
+.tete-formule-pro span{
+  margin-top: 12px;
+  border: 1px solid #777777;
+  border-radius: 10px;
+  color: #FFE14D;
+  background-color: #0a0909;
+  text-align: center;
+  padding-top: 9px;
+  width: 180px;
+  margin-bottom: 10px;
+  
+}
+.plan-card-pro{
+  background-color: #FFE14D;
+   padding: 5px 20px ;
+  border-radius: 25px;
+  padding-top: 5px;
+  color: #0a0909;
+}
+.plan-card-pro .plan-price span {
+    color: black;
+    font-weight: bold;
+}
+.plan-card-pro .plan-features li {
+    color: black;
+    font-weight: bold;
+}
+.plan-card-pro .plan-description{
+  color: #111111;
+}
+.btn-dark {
+    display: block;
+    width: 90%;
+    padding: 12px;
+    margin: 20px  0px;
+    border: 1px solid #777777;
+    text-decoration: none;
+    color: white;
+    border-radius: 6px;
+    text-align: center;
+    background-color: #0a0909;
+}
+
+/* page accuiell :  */
+
+/* section 1 : */
+
+.Accueil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    height: 500px;
+    padding: 0 100px;
+}
+
+.title_div {
+    width: 200%;
+}
+
+.title_div p {
+    color: white;
+    font-size: 10px;
+}
+
+.title_div h1 {
+    font-size: 80px;
+    color: white;
+}
+
+.image-hero {
+    display: flex;
+    gap: 30px
+}
+
+.image-hero img {
+    height: 80px;
+    border-radius: 10px;
+    border: #777777 solid 2px;
+}
+
+.image-hero p {
+    padding-top: 45px;
+    font-size: 12px;
+}
+
+.image-hero span {
+    color: #FFE14D;
+}
+
+.experiance {
+    margin-left: 170px;
+    margin-bottom: 200px;
+    padding-left: 5px;
+    border-left: 1px solid #FFE14D;
+}
+
+.experiance p {
+    color: white;
+    font-size: 10px;
+    margin-bottom: -10px;
+}
+
+.experiance h3 {
+    color: #FFE14D;
+    font-size: 20px;
+}
+
+.join {
+    padding-right: 20px;
+}
+
+.join p {
+    font-size: 15px;
+    color: white;
+}
+
+.join button {
+    padding: 10px;
+    border-radius: 5px;
+    border-color: #FFE14D;
+    color: #111111;
+    background-color: #FFE14D;
+}
+
+/* section 2 : */
+.lignejaune {
+    width: 100%;
+    height: 40px;
+    background-color: #FFE14D;
+    margin: 30px 0;
+}
+
+.line {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+}
+
+.line ul {
+    display: flex;
+    gap: 50px;
+
+}
+
+/* section 3 : */
+.adoutsection {
+    display: flex;
+    padding: 40px 100px;
+    gap: 50px;
+}
+
+.adoutsection img {
+    width: 40%;
+    height: auto;
+    margin-right: 50px;
+    border-radius: 15px;
+    box-shadow: #777777 1px 1px 5px;
+}
+
+.part-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.adoutTitle h5 {
+    font-size: x-small;
+    color: #FFE14D;
+    margin-bottom: 0;
+
+}
+
+.adoutTitle h2 {
+    font-size: 35px;
+    margin-top: 0px;
+    color: white;
+}
+
+.adoutTitle p {
+    color: #777777;
+}
+
+.adoutOption {
+    display: flex;
+    justify-self: flex-start;
+}
+
+.adoutOption h3 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+.adoutOption p {
+    color: #777777;
+    margin-top: 1px;
+    margin-bottom: 60px;
+}
+
+.btn-description {
+    display: flex;
+    justify-self: start;
+    width: 100%;
+}
+
+.btn-description button {
+    padding: 10px;
+    border-radius: 5px;
+    border-color: #FFE14D;
+    color: #111111;
+    background-color: #FFE14D;
+}
+
+/* section 4 : */
+.testimonials {
+    padding: 0 100px;
+    margin-bottom: 75px;
+}
+
+.testimonialshead {
+    width: 100%;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.tewt-testimonialshead {
+    width: 100%;
+}
+
+.tewt-testimonialshead h5 {
+    font-size: x-small;
+    color: #FFE14D;
+    margin-bottom: 0;
+}
+
+.btn-testimonialshead {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    gap: 5px;
+}
+
+.tewt-testimonialshead h2 {
+    font-size: 35px;
+    margin-top: 0px;
+    color: white;
+}
+
+.left,
+.right {
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+
+.left svg,
+.right svg {
+    width: 25px;
+    height: 25px;
+}
+
+.left {
+    background-color: #111111;
+    border: #FFE14D solid 1px;
+}
+
+.left:hover {
+    border: #FFE14D solid 3px;
+}
+
+.right {
+    background-color: #FFE14D;
+    border: #777777 solid 1px;
+}
+
+.right:hover {
+    border: #777777 solid 3px;
+}
+
+.testimonial-grid {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    background-color: rgba(119, 119, 119, 0.3);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.stars {
+    color: #FFE14D;
+}
+
+.card p {
+    color: white;
+}
+
+.who {
+    margin-left: 50px;
+}
+
+.who h3 {
+    margin-bottom: 5px;
+    color: white;
+}
+
+.who h5 {
+    margin-top: 0;
+    color: #777777;
 }
 .programme-details :first-child{
   margin-right: 30px;
@@ -473,3 +891,106 @@ color: white;
 
 
 
+
+@media (max-width: 768px) {
+    .Accueil {
+        display: inline;
+        padding: 0 5px;
+        margin-bottom: 20px;
+    }
+
+    .title_div {
+        width: 100%;
+    }
+
+    .title_div h1 {
+        font-size: 50px;
+    }
+
+    .experiance {
+        margin-left: 0px;
+        margin-bottom: 0px;
+        padding-left: 8px;
+        border-left: 1px solid #FFE14D;
+    }
+
+    .image-hero {
+        display: block;
+        gap: 0px
+    }
+
+    .image-hero img {
+        width: 80%;
+        height: 60%;
+        align-items: center;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .image-hero p {
+        padding-top: 10px;
+        font-size: 12px;
+        color: #777777;
+    }
+
+    .join p {
+        color: #777777;
+    }
+
+    .btn-join {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* ligne jaune disparu */
+
+    /* section 3 : */
+
+    .adoutsection {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: inline;
+        gap: 0;
+    }
+
+    .adoutsection img {
+        display: none;
+    }
+
+    .adoutOption {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .adoutOption p {
+        margin-bottom: 5px;
+    }
+
+    .btn-description {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 30px 0;
+    }
+
+    /* section 4 : */
+    .testimonials {
+        margin: 0;
+        padding: 0;
+    }
+
+    .tewt-testimonialshead {
+        width: 100%;
+    }
+    .btn-testimonialshead{
+        display: none;
+    }
+    .testimonial-grid{
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+}
