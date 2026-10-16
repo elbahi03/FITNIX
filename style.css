@@ -743,8 +743,10 @@ justify-content: space-around;
     color: #191A1C;
 }
 .Foter_FITNIX h2 {
-    font-size: 200px;
+    max-width: 100%;
+    width: auto;
     margin: 0;
+    font-size: 15vw;
 }
 .Bottom-Pied{
     display: flex;
@@ -768,6 +770,31 @@ margin: 22px;
 
 footer p , .menu-pied li,.HOURS  h5 {
     color: #A3A3A3;
+}
+
+.email {
+  flex: 1;
+  background-color: #171717;
+  border: 1px solid #2a2a2a;
+  border-right: none;
+  padding: 12px 15px;
+  color: #fff;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+}
+
+.NEWSLETTER form {
+  display: flex;
+}
+
+.JOIN {
+  background-color: #fde047;
+  color: #000;
+  border: none;
+  padding: 0 20px;
+  font-weight: bold;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
 }
 
 
