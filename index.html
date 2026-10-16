@@ -4,23 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description"
+        content="FitNix, votre salle de sport : coachs certifiés, programmes sur mesure et suivi nutrition. Réservez votre essai gratuit et commencez dès aujourd'hui.">
+    <title>FITNIX | A website for a fitness gym</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="canonical" href="https://fitnix-two.vercel.app/" />
+    <link rel="icon" href="logo_FitNix.png">
 </head>
 
 <body>
     <header class="Header">
         <div class="Menulogo">
             <div class="logo-div">
-                <a href="/" class="logo">
-                    <img src="logo_FitNix.png" id="Menu-icone" style="width:30px;height:30px;">
+                <a href="/" class="logo" aria-label="to page home">
+                    <img src="logo_FitNix.png" id="Menu-icone" alt="logo de FITNIX" style="width:30px;height:30px;">
                     FitNix</a>
             </div>
             <ul class="Menu">
-                <li><a href="/">Home</a></li>
-                <li><a href="/programmes.html">Program</a></li>
-                <li><a href="/gallerie.html">Gallery</a></li>
-                <li><a href="/about.html">About</a></li>
+                <li><a href="/" aria-label="to page home">Home</a></li>
+                <li><a href="/programmes.html" aria-label="to page program">Program</a></li>
+                <li><a href="/gallerie.html" aria-label="to page gallery">Gallery</a></li>
+                <li><a href="/about.html" aria-label="to page about">About</a></li>
             </ul>
         </div>
         <details>
@@ -28,14 +32,14 @@
                 <img src="Images/menu-icon.svg" alt="Menu" class="menu-icon">
             </summary>
             <ul class="Menu2">
-                <li><a href="/">Home</a></li>
-                <li><a href="/programmes.html">Program</a></li>
-                <li><a href="/gallerie.html">Gallery</a></li>
-                <li><a href="/about.html">About</a></li>
+                <li><a href="/" aria-label="to page home">Home</a></li>
+                <li><a href="/programmes.html" aria-label="to page program">Program</a></li>
+                <li><a href="/gallerie.html" aria-label="to page gallery">Gallery</a></li>
+                <li><a href="/about.html" aria-label="to page about">About</a></li>
+                <li><a href="/contact-us.html" aria-label="to page Contact Us"> Contactez</a></li>
             </ul>
-
         </details>
-        <button class="contact-button">contact-us</button>
+        <button class="contact-button" onclick="window.location.href='/contact-us.html'">contact-us</button>
     </header>
 
     <main>
@@ -47,7 +51,7 @@
                 </span>
 
                 <div class="image-hero">
-                    <img src="/Images/photo-1434682881908-b43d0467b798.avif" alt="">
+                    <img src="/Images/photo-1434682881908-b43d0467b798.avif" alt="photo de SOFIA HART">
                     <p class="16k"><span>16k+</span> enjoy our facilities</p>
                 </div>
             </div>
@@ -63,7 +67,8 @@
                         community that never lets you quit.
                     </p>
                     <div class="btn-join">
-                        <button>JOIN FITNIX NOW</button>
+                        <button onclick="window.location.href='/contact-us.html'"
+                            aria-label="go to page Contact Us pour REJOINDRE">JOIN FITNIX NOW</button>
                     </div>
                 </div>
             </div>
@@ -93,7 +98,7 @@
             </div>
         </section>
         <section class="adoutsection">
-            <img src="Images/photo-1637430308606-86576d8fef3c (1).avif" alt="AdoutImg">
+            <img src="Images/photo-1637430308606-86576d8fef3c (1).avif" alt="Photo de la salle FITNIX">
             <div class="part-description">
                 <div class="adoutTitle">
                     <h5>ABOUT US</h5>
@@ -114,7 +119,7 @@
                     </div>
                 </div>
                 <div class="btn-description">
-                    <button>MEET OUR TRAINERS</button>
+                    <button onclick="window.location.href='/contact-us.html'">MEET OUR TRAINERS</button>
                 </div>
             </div>
         </section>
@@ -125,7 +130,7 @@
                     <h2>WHAT OUR MEMBERS SAY</h2>
                 </div>
                 <div class="btn-testimonialshead">
-                    <button class="left">
+                    <button class="left" aria-label="Previous slide">
                         <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none"
                             xmlns="http://www.w3.org/2000/svg" transform="rotate(0)matrix(-1, 0, 0, 1, 0, 0)"
                             stroke="#FFE14D">
@@ -141,7 +146,7 @@
                             </g>
                         </svg>
                     </button>
-                    <button class="right">
+                    <button class="right" aria-label="Next slide">
                         <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
@@ -166,11 +171,12 @@
                             possible."</p>
                         <div class="who">
                             <div class="img-class">
-                                <img src="https://i.pinimg.com/1200x/3f/3c/f8/3f3cf824ceb39fa5dbd00aa986e25f54.jpg" alt="">
+                                <img src="https://i.pinimg.com/1200x/3f/3c/f8/3f3cf824ceb39fa5dbd00aa986e25f54.jpg"
+                                    alt="icon de contact">
                             </div>
                             <div>
-                            <h3>JORDAN BLAKE</h3>
-                            <h5>Member since 2023</h5>
+                                <h3>JORDAN BLAKE</h3>
+                                <h5>Member since 2023</h5>
                             </div>
                         </div>
                     </div>
@@ -185,11 +191,12 @@
                             energy."</p>
                         <div class="who">
                             <div class="img-class">
-                                <img src="https://i.pinimg.com/1200x/3f/3c/f8/3f3cf824ceb39fa5dbd00aa986e25f54.jpg" alt="">
+                                <img src="https://i.pinimg.com/1200x/3f/3c/f8/3f3cf824ceb39fa5dbd00aa986e25f54.jpg"
+                                    alt="icon de contact">
                             </div>
-                            <div >
-                            <h3>NADIA KARIM</h3>
-                            <h5>Pro Plan member</h5>
+                            <div>
+                                <h3>NADIA KARIM</h3>
+                                <h5>Pro Plan member</h5>
                             </div>
                         </div>
                     </div>
@@ -203,13 +210,14 @@
                         </p>
                         <div class="who">
                             <div class="img-class">
-                                <img src="https://i.pinimg.com/1200x/3f/3c/f8/3f3cf824ceb39fa5dbd00aa986e25f54.jpg" alt="">
+                                <img src="https://i.pinimg.com/1200x/3f/3c/f8/3f3cf824ceb39fa5dbd00aa986e25f54.jpg"
+                                    alt="icon du contact">
                             </div>
                             <div>
                                 <div>
-                            <h3>CHRIS MORENO</h3>
-                            <h5>Elite member</h5>
-                            </div>
+                                    <h3>CHRIS MORENO</h3>
+                                    <h5>Elite member</h5>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -221,7 +229,7 @@
         <div class="footer1">
             <div class="logo-Réseau">
                 <a href="/" class="logo">
-                    <img src="logo_FitNix.png" id="Menu-icone" style="width:30px;height:30px;">
+                    <img src="logo_FitNix.png" id="Menu-icone" style="width:30px;height:30px;" alt="logo de FITNIX">
                     FitNix</a>
                 <span>
                     <p>Science-backed training. expert coaching </p>
@@ -240,12 +248,12 @@
             <div class="EXPLORE">
                 <nav aria-label="Navigation du pied de page">
                     <ul class="menu-pied">
-                        <h4>EXPLORE</h4>
-                        <li><a href="index.html"></a>Home</li>
-                        <li><a href="programmes.html"></a>Program</li>
-                        <li><a href="gallerie.html"></a>Gallery</li>
-                        <li><a href="about.html"></a>About</li>
-                        <li><a href="contact-us.html"></a>Contact</li>
+                        <li><h4>EXPLORE</h4></li>
+                        <li><a href="/" aria-label="to page home">Home</a></li>
+                        <li><a href="/programmes.html" aria-label="to page program">Program</a></li>
+                        <li><a href="/gallerie.html" aria-label="to page gallery">Gallery</a></li>
+                        <li><a href="/about.html" aria-label="to page about">About</a></li>
+                        <li><a href="/contact-us.html" aria-label="to page Contact Us"> Contactez</a></li>
                     </ul>
                 </nav>
             </div>

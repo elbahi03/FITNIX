@@ -1,25 +1,31 @@
-
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>FitNix</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-         <header class="Header">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Contactez FitNix pour toute question, un abonnement ou un essai gratuit. Notre équipe vous répond rapidement. Retrouvez nos horaires et notre adresse.">
+    <title>FITNIX | A website for a fitness gym</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo_FitNix.png">
+    <link rel="canonical" href="https://fitnix-two.vercel.app/contact-us.html">
+
+</head>
+
+<body>
+    <header class="Header">
         <div class="Menulogo">
             <div class="logo-div">
-                <a href="/" class="logo">
-                    <img src="logo_FitNix.png" id="Menu-icone" style="width:30px;height:30px;">
+                <a href="/" class="logo" aria-label="to page home">
+                    <img src="logo_FitNix.png" id="Menu-icone" alt="logo de FITNIX" style="width:30px;height:30px;">
                     FitNix</a>
             </div>
             <ul class="Menu">
-                <li><a href="/" >Home</a></li>
-                <li><a href="/programmes.html">Program</a></li>
-                <li><a href="/gallerie.html">Gallery</a></li>
-                <li><a href="/about.html">About</a></li>
+                <li><a href="/" aria-label="to page home">Home</a></li>
+                <li><a href="/programmes.html" aria-label="to page program">Program</a></li>
+                <li><a href="/gallerie.html" aria-label="to page gallery">Gallery</a></li>
+                <li><a href="/about.html" aria-label="to page about">About</a></li>
             </ul>
         </div>
         <details>
@@ -27,56 +33,65 @@
                 <img src="Images/menu-icon.svg" alt="Menu" class="menu-icon">
             </summary>
             <ul class="Menu2">
-                <li><a href="/">Home</a></li>
-                <li><a href="/programmes.html">Program</a></li>
-                <li><a href="/gallerie.html">Gallery</a></li>
-                <li><a href="/about.html">About</a></li>
+                <li><a href="/" aria-label="to page home">Home</a></li>
+                <li><a href="/programmes.html" aria-label="to page program">Program</a></li>
+                <li><a href="/gallerie.html" aria-label="to page gallery">Gallery</a></li>
+                <li><a href="/about.html" aria-label="to page about">About</a></li>
+                <li><a href="/contact-us.html" aria-label="to page Contact Us"> Contactez</a></li>
             </ul>
-
         </details>
-        <button class="contact-button">contact-us</button>
+        <button class="contact-button" onclick="window.location.href='/contact-us.html'">contact-us</button>
     </header>
 
 
-        <section id="contact" class="contact">
-            <div class="grand-parent-contact">
-                <div class="parent-contact-us">
-                    <div class="contact-us">
-                        <div></div>
-                        <h5>CONTACT US</h5>
-                    </div>
-                    <div class="big-title-contact">
-                        <p>YOUR FIRST SESSION <span>IS ON US</span></p>
-                    </div >
-                    <p class='discription'>Book a free trail and a 1-on-1 assessment with one our <span> coaches. No commitment, no pressure.</span></p>
-                    <div>
-                        <div class="adress"><img src="Images/icon-loc.png" alt="" class="icon"><p></p>128 chari3 choufoni,agadir</div>
-                        <div class="tele"><img src="Images/icon-tel.png" alt="" class="icon"><p></p>+2126984125874</div>
-                        <div class="email"><img src="Images/icon-email.png" alt="" class="icon"><p>hello@email</p></div>
-                    </div>
+
+    <section id="contact" class="contact">
+        <div class="grand-parent-contact">
+            <div class="parent-contact-us">
+                <div class="contact-us">
+                    <div></div>
+                    <h5>CONTACT US</h5>
                 </div>
-                <div class="title-form-contact">
-                    <h3>BOOK A FREE TRAIL</h3>
-                    <form class="form">
-                            <input type="name" class="name" name="name" placeholder="Full name">
-                            <input type="email" class="email" name="email" placeholder="Email address">
-                            <input type="number" class="number" name="number" placeholder="Phone number">
-                            <select  id="select">
-                                <option value="">simple</option>
-                                <option value="">pro</option>
-                                <option value="">promax</option>     
-                            </select>
-                            <textarea placeholder="Tell us about your goals"></textarea>
-                            <button class="calm-free">CLAIM FREE TRAIL</button>
-                    </form>
+                <div class="big-title-contact">
+                    <p>YOUR FIRST SESSION <span>IS ON US</span></p>
+                </div>
+                <p class='discription'>Book a free trail and a 1-on-1 assessment with one our <span> coaches. No
+                        commitment, no pressure.</span></p>
+                <div>
+                    <div class="adress"><img src="Images/icon-loc.png" alt="icon adress" class="icon">
+                        <p></p>128 chari3 choufoni,agadir
+                    </div>
+                    <div class="tele"><img src="Images/icon-tel.png" alt="icon telephonr" class="icon">
+                        <p></p>+2126984125874
+                    </div>
+                    <div class="email"><img src="Images/icon-email.png" alt="icon mail" class="icon">
+                        <p>hello@email</p>
+                    </div>
                 </div>
             </div>
-        </section>
+            <div class="title-form-contact">
+                <h3>BOOK A FREE TRAIL</h3>
+                <form class="form">
+                    <input type="name" class="name" name="name" placeholder="Full name">
+                    <input type="email" class="email" name="email" placeholder="Email address">
+                    <input type="number" class="number" name="number" placeholder="Phone number">
+                    <select id="select">
+                        <option value="">simple</option>
+                        <option value="">pro</option>
+                        <option value="">promax</option>
+                    </select>
+                    <textarea placeholder="Tell us about your goals"></textarea>
+                    <button class="calm-free" onclick="window.location.href='/contact-us.html'">CLAIM FREE
+                        TRAIL</button>
+                </form>
+            </div>
+        </div>
+    </section>
     <footer>
         <div class="footer1">
             <div class="logo-Réseau">
                 <a href="/" class="logo">
-                    <img src="logo_FitNix.png" id="Menu-icone" style="width:30px;height:30px;">
+                    <img src="logo_FitNix.png" id="Menu-icone" style="width:30px;height:30px;" alt="logo de FITNIX">
                     FitNix</a>
                 <span>
                     <p>Science-backed training. expert coaching </p>
@@ -95,12 +110,12 @@
             <div class="EXPLORE">
                 <nav aria-label="Navigation du pied de page">
                     <ul class="menu-pied">
-                        <h4>EXPLORE</h4>
-                        <li><a href="index.html"></a>Home</li>
-                        <li><a href="programmes.html"></a>Program</li>
-                        <li><a href="gallerie.html"></a>Gallery</li>
-                        <li><a href="about.html"></a>About</li>
-                        <li><a href="contact-us.html"></a>Contact</li>
+                        <li><h4>EXPLORE</h4></li>
+                        <li><a href="/" aria-label="to page home">Home</a></li>
+                        <li><a href="/programmes.html" aria-label="to page program">Program</a></li>
+                        <li><a href="/gallerie.html" aria-label="to page gallery">Gallery</a></li>
+                        <li><a href="/about.html" aria-label="to page about">About</a></li>
+                        <li><a href="/contact-us.html" aria-label="to page Contact Us"> Contactez</a></li>
                     </ul>
                 </nav>
             </div>
@@ -133,5 +148,6 @@
             <p>Cookies</p>
         </div>
     </footer>
-    </body>
+</body>
+
 </html>

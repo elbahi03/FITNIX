@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Découvrez les programmes de fitness et les formules d'abonnement FITNIX.">
-    <title>FITNIX | Programmes</title>
+    <title>FITNIX | A website for a fitness gym</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700;900&display=swap" rel="stylesheet">
+    <link rel="icon" href="logo_FitNix.png">
+    <link rel="canonical" href="https://fitnix-two.vercel.app/programmes.html" />
 </head>
 
 <body>
@@ -16,15 +18,15 @@
     <header class="Header">
         <div class="Menulogo">
             <div class="logo-div">
-                <a href="/" class="logo">
-                    <img src="logo_FitNix.png" id="Menu-icone" style="width:30px;height:30px;">
+                <a href="/" class="logo" aria-label="to page home">
+                    <img src="logo_FitNix.png" id="Menu-icone" alt="logo de FITNIX" style="width:30px;height:30px;">
                     FitNix</a>
             </div>
             <ul class="Menu">
-                <li><a href="/">Home</a></li>
-                <li><a href="/programmes.html">Program</a></li>
-                <li><a href="/gallerie.html">Gallery</a></li>
-                <li><a href="/about.html">About</a></li>
+                <li><a href="/" aria-label="to page home">Home</a></li>
+                <li><a href="/programmes.html" aria-label="to page program">Program</a></li>
+                <li><a href="/gallerie.html" aria-label="to page gallery">Gallery</a></li>
+                <li><a href="/about.html" aria-label="to page about">About</a></li>
             </ul>
         </div>
         <details>
@@ -32,13 +34,14 @@
                 <img src="Images/menu-icon.svg" alt="Menu" class="menu-icon">
             </summary>
             <ul class="Menu2">
-                <li><a href="/">Home</a></li>
-                <li><a href="/programmes.html">Program</a></li>
-                <li><a href="/gallerie.html">Gallery</a></li>
-                <li><a href="/about.html">About</a></li>
+                <li><a href="/" aria-label="to page home">Home</a></li>
+                <li><a href="/programmes.html" aria-label="to page program">Program</a></li>
+                <li><a href="/gallerie.html" aria-label="to page gallery">Gallery</a></li>
+                <li><a href="/about.html" aria-label="to page about">About</a></li>
+                <li><a href="/contact-us.html" aria-label="to page Contact Us"> Contactez</a></li>
             </ul>
         </details>
-        <button class="contact-button">contact-us</button>
+        <button class="contact-button" onclick="window.location.href='/contact-us.html'">contact-us</button>
     </header>
 
 
@@ -63,7 +66,7 @@
                     <span>choisissez un programme adapté à vos compétition </span> <span> objectifs et à votre
                         rythme.</span>
                 </p>
-                <button class="btn">DECOUVRIR LES PROGRAMME </button>
+                <button class="btn" aria-label="go to page program pour decouvrir">DECOUVRIR LES PROGRAMME </button>
 
             </div>
         </section>
@@ -223,7 +226,8 @@
                             <li>Facturation mensuelle</li>
                         </ul>
 
-                        <a href="contact.html" class="btn-outline">COMMENCER</a>
+                        <a href="/contact-us.html" class="btn-outline"
+                            aria-label="to page Contact Us pour join le programme">COMMENCER</a>
                     </article>
 
                     <!-- FORMULE PRO -->
@@ -254,7 +258,8 @@
                             <li>Suivi mensuel avec un coach</li>
                         </ul>
 
-                        <a href="contact.html" class="btn-dark">COMMENCER</a>
+                        <a href="/contact-us.html" class="btn-dark"
+                            aria-label="to page Contact Us pour join le programme">COMMENCER</a>
                     </article>
 
                     <!-- FORMULE ELITE -->
@@ -281,7 +286,7 @@
                             <li>Assistance client premium</li>
                         </ul>
 
-                        <a href="contact.html" class="btn-outline">COMMENCER</a>
+                        <a href="/contact-us.html" class="btn-outline">COMMENCER</a>
                     </article>
 
                 </div>
@@ -295,7 +300,7 @@
         <div class="footer1">
             <div class="logo-Réseau">
                 <a href="/" class="logo">
-                    <img src="logo_FitNix.png" id="Menu-icone" style="width:30px;height:30px;">
+                    <img src="logo_FitNix.png" id="Menu-icone" style="width:30px;height:30px;" alt="logo de FITNIX">
                     FitNix</a>
                 <span>
                     <p>Science-backed training. expert coaching </p>
@@ -314,12 +319,12 @@
             <div class="EXPLORE">
                 <nav aria-label="Navigation du pied de page">
                     <ul class="menu-pied">
-                        <h4>EXPLORE</h4>
-                        <li><a href="index.html"></a>Home</li>
-                        <li><a href="programmes.html"></a>Program</li>
-                        <li><a href="gallerie.html"></a>Gallery</li>
-                        <li><a href="about.html"></a>About</li>
-                        <li><a href="contact-us.html"></a>Contact</li>
+                        <li><h4>EXPLORE</h4></li>
+                        <li><a href="/" aria-label="to page home">Home</a></li>
+                        <li><a href="/programmes.html" aria-label="to page program">Program</a></li>
+                        <li><a href="/gallerie.html" aria-label="to page gallery">Gallery</a></li>
+                        <li><a href="/about.html" aria-label="to page about">About</a></li>
+                        <li><a href="/contact-us.html" aria-label="to page Contact Us"> Contactez</a></li>
                     </ul>
                 </nav>
             </div>

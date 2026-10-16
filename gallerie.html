@@ -5,25 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="FitNix, salle de sport avec coachs certifiés, programmes sur mesure et suivi nutrition. Réservez un essai gratuit et commencez votre transformation.">
-    <title>Document</title>
+        content="FitNix, salle de sport avec coachs certifiés, programmes sur mesure et suivi nutrition. La gallerie de notre site de sport avec le matériels.">
+    <title>FITNIX | A website for a fitness gym</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="icon" href="logo_FitNix.png">
+    <link rel="canonical" href="https://fitnix-two.vercel.app/gallerie.html">
 </head>
 
 <body>
     <header class="Header">
         <div class="Menulogo">
             <div class="logo-div">
-                <a href="/" class="logo">
-                    <img src="logo_FitNix.png" id="Menu-icone" style="width:30px;height:30px;">
+                <a href="/" class="logo" aria-label="to page home">
+                    <img src="logo_FitNix.png" id="Menu-icone" alt="logo de FITNIX" style="width:30px;height:30px;">
                     FitNix</a>
             </div>
             <ul class="Menu">
-                <li><a href="/" >Home</a></li>
-                <li><a href="/programmes.html">Program</a></li>
-                <li><a href="/gallerie.html">Gallery</a></li>
-                <li><a href="/about.html">About</a></li>
+                <li><a href="/" aria-label="to page home">Home</a></li>
+                <li><a href="/programmes.html" aria-label="to page program">Program</a></li>
+                <li><a href="/gallerie.html" aria-label="to page gallery">Gallery</a></li>
+                <li><a href="/about.html" aria-label="to page about">About</a></li>
             </ul>
         </div>
         <details>
@@ -31,14 +33,14 @@
                 <img src="Images/menu-icon.svg" alt="Menu" class="menu-icon">
             </summary>
             <ul class="Menu2">
-                <li><a href="/">Home</a></li>
-                <li><a href="/programmes.html">Program</a></li>
-                <li><a href="/gallerie.html">Gallery</a></li>
-                <li><a href="/about.html">About</a></li>
+                <li><a href="/" aria-label="to page home">Home</a></li>
+                <li><a href="/programmes.html" aria-label="to page program">Program</a></li>
+                <li><a href="/gallerie.html" aria-label="to page gallery">Gallery</a></li>
+                <li><a href="/about.html" aria-label="to page about">About</a></li>
+                <li><a href="/contact-us.html" aria-label="to page Contact Us"> Contactez</a></li>
             </ul>
-
         </details>
-        <button class="contact-button">contact-us</button>
+        <button class="contact-button" onclick="window.location.href='/contact-us.html'">contact-us</button>
     </header>
 
     <main>
@@ -80,17 +82,19 @@
                 </div>
                 <div class="carouselle">
                     <marquee direction="left" scrollamount="10">
-                    <div class="caroussel-Images">
-                        <img src="Images/photo-1722925541321-f52d45b29c17.avif" alt="Barres curl">
-                        <img src="Images/photo-1734630341082-0fec0e10126c.avif" alt="Haltères">
-                        <img src="Images/photo-1637430308606-86576d8fef3c.avif" alt="Espace musculation">
-                        <img src="Images/photo-1605490855119-94921710a47f.avif" alt="Barres et disques">
-                        <img src="Images/photo-1722925541142-5db2668ca492.avif" alt="poids lourds">
-                        <img src="Images/nathan-dumlao-jlf9QyI250Y-unsplash.jpg" alt="A red and silver dumbbell on a black surface">
-                        <img src="Images/ambitious-studio-rick-barrett-w7jYaN7GqyA-unsplash.jpg" alt="A large gym with a lot of machines">
-                    </div>
-                </marquee>
-                </div>    
+                        <div class="caroussel-Images">
+                            <img src="Images/photo-1722925541321-f52d45b29c17.avif" alt="Barres curl">
+                            <img src="Images/photo-1734630341082-0fec0e10126c.avif" alt="Haltères">
+                            <img src="Images/photo-1637430308606-86576d8fef3c.avif" alt="Espace musculation">
+                            <img src="Images/photo-1605490855119-94921710a47f.avif" alt="Barres et disques">
+                            <img src="Images/photo-1722925541142-5db2668ca492.avif" alt="poids lourds">
+                            <img src="Images/nathan-dumlao-jlf9QyI250Y-unsplash.jpg"
+                                alt="A red and silver dumbbell on a black surface">
+                            <img src="Images/ambitious-studio-rick-barrett-w7jYaN7GqyA-unsplash.jpg"
+                                alt="A large gym with a lot of machines">
+                        </div>
+                    </marquee>
+                </div>
             </div>
         </section>
     </main>
@@ -98,7 +102,7 @@
         <div class="footer1">
             <div class="logo-Réseau">
                 <a href="/" class="logo">
-                    <img src="logo_FitNix.png" id="Menu-icone" style="width:30px;height:30px;">
+                    <img src="logo_FitNix.png" id="Menu-icone" style="width:30px;height:30px;" alt="logo de FITNIX">
                     FitNix</a>
                 <span>
                     <p>Science-backed training. expert coaching </p>
@@ -117,12 +121,12 @@
             <div class="EXPLORE">
                 <nav aria-label="Navigation du pied de page">
                     <ul class="menu-pied">
-                        <h4>EXPLORE</h4>
-                        <li><a href="index.html"></a>Home</li>
-                        <li><a href="programmes.html"></a>Program</li>
-                        <li><a href="gallerie.html"></a>Gallery</li>
-                        <li><a href="about.html"></a>About</li>
-                        <li><a href="contact-us.html"></a>Contact</li>
+                        <li><h4>EXPLORE</h4></li>
+                        <li><a href="/" aria-label="to page home">Home</a></li>
+                        <li><a href="/programmes.html" aria-label="to page program">Program</a></li>
+                        <li><a href="/gallerie.html" aria-label="to page gallery">Gallery</a></li>
+                        <li><a href="/about.html" aria-label="to page about">About</a></li>
+                        <li><a href="/contact-us.html" aria-label="to page Contact Us"> Contactez</a></li>
                     </ul>
                 </nav>
             </div>
