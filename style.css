@@ -1692,6 +1692,27 @@ hr {
     height: 22px;
 }
 
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+  .plan-card-parent {
+    display: inline;
+}
+ .about-image {
+    display: none;
+ }
 
+ .about-stats {
+    display: inline;
+ }
+
+ .about-stat {
+    margin-right: 10px;
+ }
+ .about-stat + .about-stat{
+    margin-top: 10px ;
+ }
+
+ .btn-yellow {
+    margin-top: 10px;
+ }
+}
 /* fin about */
